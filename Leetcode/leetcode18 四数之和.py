@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# @Author: Hongyu Chen
+# @Date:   2019-07-27 12:51:48
+# @Last Modified by:   Hongyu Chen
+# @Last Modified time: 2019-07-29 19:22:35
+
+
+'''
+n数之和 模板
+'''
 class Solution:
 	def fourSum(self, nums, target):
 
@@ -15,14 +25,13 @@ class Solution:
 						left += 1
 						right -= 1
 
+						while left < len(nums) and nums[left] == nums[left-1]:
+							left += 1
+						while right >= 0 and nums[right] == nums[right+1]:
+							right -= 1
 					elif nums[left] + nums[right] < target:
 						left += 1
 					else:
-						right -= 1
-					
-					while left < len(nums) and nums[left] == nums[left-1]:
-						left += 1
-					while right >= 0 and nums[right] == nums[right+1]:
 						right -= 1
 				return res
 
@@ -36,8 +45,5 @@ class Solution:
 			return res
 
 		nums.sort()
-		return kSum(nums, target, 0, 7)
+		return kSum(nums, target, 0, 4)
 
-
-a = [1,-1,0,0,-2,2,2,-3,1]
-print(Solution().fourSum(a,0))
