@@ -1,23 +1,15 @@
-class Solution:
-	def firstMissingPositive(self, nums):
-		if 1 not in nums:
-			return 1
-		if nums == [1]:
-			return 2
+class Solution(object):
+	def containsNearbyDuplicate(self, nums, k):
+		pool = set()
 		for i in range(len(nums)):
-			if nums[i] < 1 or nums[i] > len(nums):
-				nums[i] = 1
-		for i in range(len(nums)):
-			tmp = abs(nums[i])
-			if tmp == len(nums):
-				nums[0] = -abs(nums[0])
+			if nums[i] in pool:
+				return True
 			else:
-				nums[tmp] = -abs(nums[tmp])
-		for i in range(1, len(nums)):
-			if nums[i] > 0:
-				return i
-		if nums[0] < 0:
-			len(nums) + 1
-		else:
-			return len(nums)
-print(Solution().firstMissingPositive([1,1]))
+				pool.add(nums[i])
+			print(len(pool))
+			if len(pool) > k:
+				print('exceed')
+				pool.remove(nums[i-k])
+		return False
+
+print(Solution().containsNearbyDuplicate([1,2,3,1],2))
