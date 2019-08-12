@@ -1,4 +1,1 @@
-
-
-print(Solution2().findKthLargest([1], 1))
-
+print(6 + (5>>1))
