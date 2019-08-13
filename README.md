@@ -23,7 +23,7 @@
 	+ [二叉搜索树]
 	+ [红黑树]
 	+ [集合]
-	+ [邻接图(含欧拉回路和拓扑排序)]
+	+ [邻接图 (含欧拉回路和拓扑排序)]
 
 	
 + [Knapsack Problem (背包问题)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Knapsack%20Problem)
@@ -71,7 +71,7 @@
 
 + [TopK 问题](https://github.com/Forcrush/Mini-Algorithm/blob/master/TopK%20Problem%20(Series).py)
 	+ [小根堆法]
-	+ [快速排序(随机选择)]
+	+ [快速排序 (随机选择)]
 	+ [BFPRT算法]
 
 
