@@ -3,7 +3,7 @@
 ### Some Fabulous ideas!
 
 
-> Keep updating ...:fa-star:
+> Keep updating ...
 
 
 + [Convex Hull (凸包)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Convex%20Hull)
