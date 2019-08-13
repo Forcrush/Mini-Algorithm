@@ -45,9 +45,10 @@
 	+ [Dijkstra算法]
 	+ [Kruskal算法]
 	+ [SPFA算法]
+	+ [LCA(最近公共祖先)]
 
 
-+ [Sort Algorithm (排序算法)](https://github.com/Forcrush/Mini-Algorithm/blob/master/Sort%20Algorithm%20(Series).py)
++ [Sort Algorithm (排序算法)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Sort%20Algorithm)
 	+ [直接插入排序]
 	+ [希尔排序]
 	+ [直接选择排序]
@@ -69,7 +70,7 @@
 	+ [部分字符串DP问题]
 
 
-+ [TopK 问题](https://github.com/Forcrush/Mini-Algorithm/blob/master/TopK%20Problem%20(Series).py)
++ [TopK 问题](https://github.com/Forcrush/Mini-Algorithm/tree/master/TopK%20Problem)
 	+ [小根堆法]
 	+ [快速排序 (随机选择)]
 	+ [BFPRT算法]
