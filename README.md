@@ -2,22 +2,37 @@
 
 ### Some Fabulous ideas!
 
-### Main content
 
 > Keep updating ...
-
-+ [Leetocde](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
 
 
 + [Convex Hull (凸包)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Convex%20Hull)
 	+ [Graham's scan]
 	+ [Andrew's Monotone Chain]
 
+
++ [Data Structure Templete (部分数据结构模板)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Data%20Structure%20Templete)
+	+ [链表队]
+	+ [链表栈]
+	+ [队栈]
+	+ [双向环链]
+	+ [最小二叉堆]
+	+ [二叉树]
+	+ [哈夫曼树]
+	+ [伯努利树]
+	+ [二叉搜索树]
+	+ [红黑树]
+	+ [集合]
+	+ [邻接图(含欧拉回路和拓扑排序)]
+
 	
 + [Knapsack Problem (背包问题)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Knapsack%20Problem)
 	+ [01背包] / [需装满]
 	+ [完全背包]
 	+ [多重背包]
+
+
++ [Leetocde](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
 
 
 + [Network Flow (网络流)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Network%20Flow)
@@ -60,17 +75,5 @@
 	+ [BFPRT算法]
 
 
-+ [Data Structure Templete (部分数据结构模板)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Data%20Structure%20Templete)
-	+ [链表队]
-	+ [链表栈]
-	+ [队栈]
-	+ [双向环链]
-	+ [最小二叉堆]
-	+ [二叉树]
-	+ [哈夫曼树]
-	+ [伯努利树]
-	+ [二叉搜索树]
-	+ [红黑树]
-	+ [集合]
-	+ [邻接图(含欧拉回路和拓扑排序)]
+
 
