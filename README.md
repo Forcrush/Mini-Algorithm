@@ -45,7 +45,7 @@
 	+ [Dijkstra算法]
 	+ [Kruskal算法]
 	+ [SPFA算法]
-	+ [LCA(最近公共祖先)]
+	+ [LCA (最近公共祖先)]
 
 
 + [Sort Algorithm (排序算法)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Sort%20Algorithm)
