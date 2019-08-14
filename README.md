@@ -61,6 +61,11 @@
 	+ [基数排序]
 
 
++ [Specific Problem](https://github.com/Forcrush/Mini-Algorithm/tree/master/Specific%20Problem)
+	+ [八皇后问题 (遗传算法)]
+	+ [平面最短点对 (分治法)]
+	
+	
 + [String Problem (字符串)](https://github.com/Forcrush/Mini-Algorithm/tree/master/String%20Problem)
 	+ [AC自动机]
 	+ [Trie树]
