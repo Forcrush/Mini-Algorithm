@@ -11,7 +11,7 @@
 	+ [Andrew's Monotone Chain]
 
 
-+ [Data Structure Templete (部分数据结构模板)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Data%20Structure%20Templete)
++ [Data Structure Template (部分数据结构模板)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Data%20Structure%20Template)
 	+ [链表队]
 	+ [链表栈]
 	+ [队栈]
