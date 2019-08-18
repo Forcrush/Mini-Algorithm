@@ -67,6 +67,10 @@
 	
 	
 + [String Problem (字符串)](https://github.com/Forcrush/Mini-Algorithm/tree/master/String%20Problem)
+	+ [Approximate Matching]
+		+ [Levenshtein Distance算法]
+		+ [Needle Wunsch算法]
+		+ [Smith Waterman算法]
 	+ [AC自动机]
 	+ [Trie树]
 	+ [Manacher算法]
