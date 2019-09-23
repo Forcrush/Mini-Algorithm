@@ -2,7 +2,7 @@
 # @Author: Puffrora
 # @Date:   2019-08-17 12:23:56
 # @Last Modified by:   Puffrora
-# @Last Modified time: 2019-08-17 13:11:46
+# @Last Modified time: 2019-08-29 09:31:20
 
 
 
@@ -21,11 +21,15 @@ def Needle_Wunsch(s1, s2):
 	# Action Cost
 	match = 1
 	delete, insert, replace = -1, -1, -1
-
+	"""
+	当 match = 0
+	delete, insert, replace = 1, 1, 1 时
+	最终结果就是 Levenshitein 距离
+	"""
 	for i in range(1, len(s1)+1):
-		matrix[i][0] = -i
+		matrix[i][0] = i * insert
 	for j in range(1, len(s2)+1):
-		matrix[0][j] = -j
+		matrix[0][j] = j * delete
 
 	for i in range(1, len(s1)+1):
 		for j in range(1, len(s2)+1):
@@ -34,6 +38,7 @@ def Needle_Wunsch(s1, s2):
 				matrix[i][j] = matrix[i-1][j-1] + match
 			else:
 				# max(insert, delete, replace)
+				# min(insert, delete, replace) if match < insert, delete, replace
 				matrix[i][j] = max(matrix[i-1][j]+insert, matrix[i][j-1]+delete, matrix[i-1][j-1]+replace)
 	
 	return matrix[len(s1)][len(s2)]

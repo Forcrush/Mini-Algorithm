@@ -2,7 +2,7 @@
 # @Author: Puffrora
 # @Date:   2019-08-17 12:23:59
 # @Last Modified by:   Puffrora
-# @Last Modified time: 2019-08-17 13:11:40
+# @Last Modified time: 2019-08-29 09:29:38
 
 
 '''
@@ -30,7 +30,8 @@ def Smith_Waterman(s1, s2):
 			if s1[i-1] == s2[j-1]:
 				matrix[i][j] = matrix[i-1][j-1] + match
 			else:
-				# max(insert, delete, replace)
+				# max(0, insert, delete, replace)
+				# min(0, insert, delete, replace) if match < insert, delete, replace
 				matrix[i][j] = max(0, matrix[i-1][j]+insert, matrix[i][j-1]+delete, matrix[i-1][j-1]+replace)
 			maxval = max(maxval, matrix[i][j])
 
