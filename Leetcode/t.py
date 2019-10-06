@@ -1,8 +1,6 @@
-def count1(n):
-    res = 0
-    while n != 0:
-        n &= n - 1
-        res += 1
-    return res
+45.77.141.8
 
-print(count1(32))
+
+970827chitarra
+FreeSSR-public
+ssr://NDUuNzcuMTQxLjg6MjAyOTphdXRoX3NoYTFfdjQ6YWVzLTI1Ni1jZmI6cGxhaW46T1Rjd09ESTNZMmhwZEdGeWNtRS8_b2Jmc3BhcmFtPSZncm91cD1SbkpsWlZOVFVpMXdkV0pzYVdN
