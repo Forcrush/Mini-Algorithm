@@ -1,6 +1,3 @@
-45.77.141.8
-
-
-970827chitarra
-FreeSSR-public
-ssr://NDUuNzcuMTQxLjg6MjAyOTphdXRoX3NoYTFfdjQ6YWVzLTI1Ni1jZmI6cGxhaW46T1Rjd09ESTNZMmhwZEdGeWNtRS8_b2Jmc3BhcmFtPSZncm91cD1SbkpsWlZOVFVpMXdkV0pzYVdN
+for i in range(1,8,i+1):
+    i += 3
+    print(234)
