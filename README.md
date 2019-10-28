@@ -25,7 +25,9 @@
 	+ [集合]
 	+ [邻接图 (含欧拉回路和拓扑排序)]
 
-	
++ [Integer Division Problem (整数划分问题)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Integer%20Division%20Problem)
+
+
 + [Knapsack Problem (背包问题)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Knapsack%20Problem)
 	+ [01背包] / [需装满]
 	+ [完全背包]
