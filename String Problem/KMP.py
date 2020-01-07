@@ -20,7 +20,8 @@ def KMP(s, p):  # s 原串  p 子串
     pos = []
     next = cal_next(p, plen)  # 计算next数组
     k = -1
-    for i in range(0, slen):
+    i = 0
+    while i < slen:
         while k > -1 and p[k + 1] != s[i]:  # ptr和str不匹配，且k>-1（表示ptr和str有部分匹配）
             k = next[k]  # 往前回溯
         if p[k + 1] == s[i]:
@@ -29,11 +30,12 @@ def KMP(s, p):  # s 原串  p 子串
             pos.append(i-plen+1)
             k = -1  # 重新初始化，寻找下一个
             i = i - plen + 1  # i定位到该位置，外层for循环i++可以继续找下一个（这里默认存在两个匹配字符串可以部分重叠）
+        i += 1
     return pos
 
 
-a = "bacbababadababacambabacaddababacasdsd"
-b = "ababaca"
+a = "babababacbababadababacambabacaddababacasdsd"
+b = "ababa"
 
 
 print(KMP(a,b))
