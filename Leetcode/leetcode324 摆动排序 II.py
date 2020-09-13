@@ -2,9 +2,10 @@
 # @Author: Puffrora
 # @Date:   2020-08-23 12:10:09
 # @Last Modified by:   Puffrora
-# @Last Modified time: 2020-08-23 12:31:37
+# @Last Modified time: 2020-09-12 22:30:41
 
 
+# 含重复元素
 # 时间复杂度 O(N)
 # 空间复杂度 O(N)
 class Solution:
@@ -71,3 +72,16 @@ class Solution:
 		# return nums
 
 # print(Solution().wiggleSort([5, 3, 2, 2, 3, 1]))
+
+
+# 不含重复元素
+# 时间复杂度 O(N)
+# 空间复杂度 O(1)
+class Solution:
+	def wiggleSort(self, nums):
+		"""Perform Wiggle Sort."""
+		for i in range(len(nums)):
+			if (i%2 == 1) == (nums[i-1] > nums[i]):
+				nums[i-1], nums[i] = nums[i], nums[i-1]
+
+		return nums

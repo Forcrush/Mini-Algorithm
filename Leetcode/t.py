@@ -8,34 +8,11 @@ Mendeley
 Zotero
 '''
 
-import bisect
+  
+def isPanlindrome(s):
+    return s == s[::-1]
 
-def max_subarray_sum(nums, k):
-    arr = [0]
-    cur_sum = 0
-    res = float("-inf")
-    for n in nums:
-        cur_sum += n
-        # 在 arr 里面找比 cur_sum - k 大但最接近的数
-        loc = bisect.bisect_left(arr, cur_sum-k)
-        # loc > len(arr) 则说明 arr 中所有数都小于 cur_sum-k
-        if loc < len(arr):
-            # 目前对于每次遍历 cum - array[loc] 都会是比 k 小的
-            # 但是我们不仅要比 k 小还要最接近 k 因此在这些数里面找最大
-            res = max(res, cur_sum-arr[loc])
-        # 加入cur_sum 并且还要维护排序
-        bisect.insort(arr, cur_sum)
-
-    return res
-
-
-print(max_subarray_sum([2,2,-1], 0))
-
-
-
-
-
-
+print(isPanlindrome(""))
 
 def cal_next(s, length):
 
