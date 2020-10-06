@@ -61,11 +61,6 @@
 	+ [计数排序]
 	+ [桶排序]
 	+ [基数排序]
-
-
-+ [Specific Problem](https://github.com/Forcrush/Mini-Algorithm/tree/master/Specific%20Problem)
-	+ [八皇后问题 (遗传算法)]
-	+ [平面最短点对 (分治法)]
 	
 	
 + [String Problem (字符串)](https://github.com/Forcrush/Mini-Algorithm/tree/master/String%20Problem)
@@ -78,6 +73,7 @@
 	+ [Manacher算法]
 	+ [KMP算法]
 	+ [Rabin-Karp算法]
+	+ [Sunday算法]
 	+ [部分字符串DP问题]
 
 
@@ -87,5 +83,10 @@
 	+ [BFPRT算法]
 
 
-
++ [杂项](https://github.com/Forcrush/Mini-Algorithm/tree/master/Zz%20Mess)
+	+ [八皇后问题 (遗传算法)]
+	+ [平面最短点对 (分治法)]
+	+ [DBSCAN]
+	+ [EM solve HMM]
+	+ [...]
 

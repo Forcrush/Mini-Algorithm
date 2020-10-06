@@ -9,10 +9,9 @@ Zotero
 '''
 
   
-def isPanlindrome(s):
-    return s == s[::-1]
-
-print(isPanlindrome(""))
+a = [2,3,1,4]
+a.sorted()
+print(a)
 
 def cal_next(s, length):
 
