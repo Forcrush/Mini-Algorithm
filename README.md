@@ -24,6 +24,7 @@
 	+ [红黑树]
 	+ [集合]
 	+ [邻接图 (含欧拉回路和拓扑排序)]
+	+ [...]
 
 + [Integer Division Problem (整数划分问题)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Integer%20Division%20Problem)
 
@@ -41,13 +42,14 @@
 	+ [Hungarian算法]
 	+ [Edomond-Karp算法]
 	+ [Ford-Fulkerson算法]
-
+	+ [...]
 
 + [Path Finding (图与路径)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Path%20Finding)
 	+ [Dijkstra算法]
 	+ [Kruskal算法]
 	+ [SPFA算法]
 	+ [LCA (最近公共祖先)]
+	+ [...]
 
 
 + [Sort Algorithm (排序算法)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Sort%20Algorithm)
@@ -75,6 +77,7 @@
 	+ [Rabin-Karp算法]
 	+ [Sunday算法]
 	+ [部分字符串DP问题]
+	+ [...]
 
 
 + [TopK 问题](https://github.com/Forcrush/Mini-Algorithm/tree/master/TopK%20Problem)
