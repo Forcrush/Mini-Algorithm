@@ -1,3 +1,9 @@
+<!--
+ * @Author: Puffrora
+ * @Date: 2019-08-14 23:25:22
+ * @LastModifiedBy: Puffrora
+ * @LastEditTime: 2020-10-17 19:10:11
+-->
 # Mini-Algorithm
 
 ### Some Fabulous ideas!
@@ -35,8 +41,8 @@
 	+ [多重背包]
 
 
-+ [Leetocde](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
-
++ [Leetcode](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
+	+ <i class="fa fa-refresh fa-spin"></i>
 
 + [Network Flow (网络流)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Network%20Flow)
 	+ [Hungarian算法]
