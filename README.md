@@ -2,7 +2,7 @@
  * @Author: Puffrora
  * @Date: 2019-08-14 23:25:22
  * @LastModifiedBy: Puffrora
- * @LastEditTime: 2020-10-17 19:40:22
+ * @LastEditTime: 2020-10-17 19:44:47
 -->
 # Mini-Algorithm
 
@@ -42,7 +42,7 @@
 
 
 + [Leetcode](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
-	+ :cyclone:
+	+ :space_invader: :cyclone: :space_invader:
 
 + [Network Flow (网络流)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Network%20Flow)
 	+ [Hungarian算法]
