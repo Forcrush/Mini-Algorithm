@@ -2,7 +2,7 @@
  * @Author: Puffrora
  * @Date: 2019-08-14 23:25:22
  * @LastModifiedBy: Puffrora
- * @LastEditTime: 2020-10-17 19:13:58
+ * @LastEditTime: 2020-10-17 19:28:27
 -->
 # Mini-Algorithm
 
@@ -102,8 +102,8 @@
 
 
 
-<head> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
-</head> 
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
