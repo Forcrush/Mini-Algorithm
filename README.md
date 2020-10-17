@@ -2,7 +2,7 @@
  * @Author: Puffrora
  * @Date: 2019-08-14 23:25:22
  * @LastModifiedBy: Puffrora
- * @LastEditTime: 2020-10-17 19:28:27
+ * @LastEditTime: 2020-10-17 19:40:22
 -->
 # Mini-Algorithm
 
@@ -42,7 +42,7 @@
 
 
 + [Leetcode](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
-	+ <i class="fa fa-refresh fa-spin"></i>
+	+ :cyclone:
 
 + [Network Flow (网络流)](https://github.com/Forcrush/Mini-Algorithm/tree/master/Network%20Flow)
 	+ [Hungarian算法]
@@ -101,9 +101,3 @@
 
 
 
-
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
