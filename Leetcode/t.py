@@ -2,10 +2,10 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2020-10-13 08:04:02
+LastEditTime: 2020-10-17 18:55:20
 '''
-# 3=/76=/239=/424=/438=/480=/567=/992/1176/715/850
-# 466=/1248/629/493=/218=/214=/854/1420
+# 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
+# 466=/1248/629/493=/218=/214=/854=/1420
 # https://careers.google.com/jobs/results/88312509183730374-technical-solutions-engineer-big-data-and-machine-learning/?company=Google&company=YouTube&hl=zh_CN&hl=zh_CN&jlo=en-US&location=Sydney%20NSW,%20Australia&page=3
 
 
@@ -15,10 +15,35 @@ Zotero
 '''
 
 
-b = 3333
-a = None
-if a:
-    print(333)
+class Solution(object):
+    def kSimilarity(self, A, B):
+        from collections import deque
+        
+        def neighbors(S):
+            for i, c in enumerate(S):
+                if c != B[i]:
+                    break
+
+            T = list(S)
+            for j in range(i+1, len(S)):
+                if S[j] == B[i]:
+                    T[i], T[j] = T[j], T[i]
+                    yield "".join(T)
+                    T[j], T[i] = T[i], T[j]
+
+        queue = deque([A])
+        seen = {A: 0}
+        while queue:
+            S = queue.popleft()
+            if S == B:
+                return seen[S]
+            for T in neighbors(S):
+                if T not in seen:
+                    seen[T] = seen[S] + 1
+                    queue.append(T)
+
+
+print(Solution().kSimilarity("abccaacceecdeea", "bcaacceeccdeaae"))
 
 def cal_next(s, length):
 
