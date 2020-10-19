@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2020-10-17 18:55:20
+LastEditTime: 2020-10-19 12:44:00
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
 # 466=/1248/629/493=/218=/214=/854=/1420
@@ -12,39 +12,13 @@ LastEditTime: 2020-10-17 18:55:20
 '''
 Mendeley
 Zotero
+
 '''
 
+from collections import deque, defaultdict
+a = defaultdict(lambda:4)
 
-class Solution(object):
-    def kSimilarity(self, A, B):
-        from collections import deque
-        
-        def neighbors(S):
-            for i, c in enumerate(S):
-                if c != B[i]:
-                    break
-
-            T = list(S)
-            for j in range(i+1, len(S)):
-                if S[j] == B[i]:
-                    T[i], T[j] = T[j], T[i]
-                    yield "".join(T)
-                    T[j], T[i] = T[i], T[j]
-
-        queue = deque([A])
-        seen = {A: 0}
-        while queue:
-            S = queue.popleft()
-            if S == B:
-                return seen[S]
-            for T in neighbors(S):
-                if T not in seen:
-                    seen[T] = seen[S] + 1
-                    queue.append(T)
-
-
-print(Solution().kSimilarity("abccaacceecdeea", "bcaacceeccdeaae"))
-
+print(a[2])
 def cal_next(s, length):
 
     next = [-1] * length  
