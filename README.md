@@ -2,7 +2,7 @@
  * @Author: Puffrora
  * @Date: 2019-08-14 23:25:22
  * @LastModifiedBy: Puffrora
- * @LastEditTime: 2020-10-22 20:06:45
+ * @LastEditTime: 2020-10-22 20:09:00
 -->
 # Mini-Algorithm
 
@@ -41,8 +41,7 @@
 	+ [多重背包]
 
 
-+ [Leetcode](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
-	+ [:space_invader: :cyclone: :space_invader:](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
++ [Leetcode :space_invader: :cyclone: :space_invader:](https://github.com/Forcrush/Mini-Algorithm/tree/master/Leetcode)
 
 + [Network Flow (网络流) :camel:](https://github.com/Forcrush/Mini-Algorithm/tree/master/Network%20Flow)
 	+ [Hungarian算法]
