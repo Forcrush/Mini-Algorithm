@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2020-10-20 23:24:48
+LastEditTime: 2020-10-22 15:09:57
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
 # 466=/1248/629/493=/218=/214=/854=/1420
@@ -15,10 +15,8 @@ Zotero
 
 '''
 
-from collections import deque, defaultdict
-a = defaultdict(lambda:4)
+print('abc'<'acb')
 
-print(a[2])
 def cal_next(s, length):
 
     next = [-1] * length  
