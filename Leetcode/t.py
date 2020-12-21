@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2020-11-16 16:18:18
+LastEditTime: 2020-12-09 16:17:48
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
 # 466=/1248/629/493=/218=/214=/854=/1420
@@ -15,7 +15,7 @@ Zotero
 https://www.jvruo.com/archives/455/
 '''
 
-
+print(1^3^4^8)
 class parent:
     def __init__(self):
         self.name = 'parent'
