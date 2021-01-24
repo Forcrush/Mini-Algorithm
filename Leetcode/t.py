@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-01-24 14:10:19
+LastEditTime: 2021-01-24 20:30:05
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
 # 466=/1248/629/493=/218=/214=/854=/1420
@@ -14,12 +14,9 @@ Mendeley
 Zotero
 https://www.jvruo.com/archives/455/
 '''
-a = {(1,1):0,(2,2):0}
-res=0
-for i in range(2):
-    if a[(1,1)] or a[(2,2)]:
-        res = 1
-print(res)
+import bisect
+a=[0,0,1,1,1,2]
+print(bisect.bisect(a,1))
 class parent:
     def __init__(self):
         self.name = 'parent'
