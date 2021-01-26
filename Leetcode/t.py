@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-01-25 22:44:42
+LastEditTime: 2021-01-26 19:08:37
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992/1176/715=/850/968
 # 466=/1248/629/493=/218=/214=/854=/1420
@@ -14,9 +14,12 @@ Mendeley
 Zotero
 https://www.jvruo.com/archives/455/
 '''
-a = None
-if not a:
-    print(333)
+
+
+def t(a: List[int], b: int) -> int:
+    return a[0]+b
+
+print(t([2],3))
 class parent:
     def __init__(self):
         self.name = 'parent'
