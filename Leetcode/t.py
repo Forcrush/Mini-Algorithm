@@ -2,14 +2,14 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-01-27 19:59:44
+LastEditTime: 2021-01-29 16:44:00
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992=/1176/715=/850=/968
 # 466=/1248/629=/493=/218=/214=/854=/1420
 # 842/828
 # https://careers.google.com/jobs/results/88312509183730374-technical-solutions-engineer-big-data-and-machine-learning/?company=Google&company=YouTube&hl=zh_CN&hl=zh_CN&jlo=en-US&location=Sydney%20NSW,%20Australia&page=3
 
-# To review: 699 * 730 * 753 * 761 * 782 * 801 * 850 * 1187
+# To review: 699 * 730 * 753 * 761 * 782 801 * 850 * 1187
 ''',
 Mendeley
 Zotero
@@ -17,8 +17,8 @@ https://www.jvruo.com/archives/455/
 '''
 
 
-a = '234r23'
-a[2] = '6'
+a = {}
+a[(1,2,3)] = 4
 print(a)
 def cal_next(s, length):
 
