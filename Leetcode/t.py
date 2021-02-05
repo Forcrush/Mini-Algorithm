@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-01-29 16:44:00
+LastEditTime: 2021-02-05 15:18:23
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992=/1176/715=/850=/968
 # 466=/1248/629=/493=/218=/214=/854=/1420
@@ -17,9 +17,7 @@ https://www.jvruo.com/archives/455/
 '''
 
 
-a = {}
-a[(1,2,3)] = 4
-print(a)
+print(ord('a')-ord('c'))
 def cal_next(s, length):
 
     next = [-1] * length  
