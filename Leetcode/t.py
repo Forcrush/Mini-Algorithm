@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-02-05 15:18:23
+LastEditTime: 2021-02-05 16:59:53
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992=/1176/715=/850=/968
 # 466=/1248/629=/493=/218=/214=/854=/1420
@@ -17,19 +17,8 @@ https://www.jvruo.com/archives/455/
 '''
 
 
-print(ord('a')-ord('c'))
-def cal_next(s, length):
-
-    next = [-1] * length  
-    k = -1 
-    for q in range(1, length):
-        while k > -1 and s[k+1] != s[q]: 
-            k = next[k]  
-        if s[k + 1] == s[q]: 
-            k = k + 1;
-        next[q] = k; 
-    return next  
-    
+a = {[1,1,2,3]}
+print(a)    
 def KMP(s, p):
     slen = len(s)
     plen = len(p)
