@@ -2,7 +2,7 @@
 Author: Puffrora
 Date: 2019-05-04 23:31:54
 LastModifiedBy: Puffrora
-LastEditTime: 2021-03-01 20:05:23
+LastEditTime: 2021-03-06 17:14:35
 '''
 # 3=/76=/239=/424=/438=/480=/567=/992=/1176/715=/850=/968
 # 466=/1248/629=/493=/218=/214=/854=/1420
@@ -17,8 +17,8 @@ https://www.jvruo.com/archives/455/
 '''
 
 
-a = {[1,1,2,3]}
-print(a)   
+a={2:100,300:400}
+print(max(a.values()))
 
 
 def cal_next(s, length):
